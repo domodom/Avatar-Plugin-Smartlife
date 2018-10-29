@@ -25,8 +25,8 @@ Dans le fichier smartlife.prop
                         "ip": "192.168.x.x"
                         },
                 "lumière": {
-                        "id": "05200458dc4f2238eebf",
-                        "key": "69beb13096808d8f",                                
+                        "id": "xxxxxxxxxxxxxxxxxxxx",
+                        "key": "yyyyyyyyyyyyyy",                                
                         "ip": "192.168.x.x"
                       }
                 }
