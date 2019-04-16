@@ -1,0 +1,5 @@
+- Pilotez vos modules SmartLife - 
+
+- Contrôlez vos modules
+ (Ouverture - Fermeture)
+- Affichage d'une icône sur l'interface Serveur avec contrôle du module !
