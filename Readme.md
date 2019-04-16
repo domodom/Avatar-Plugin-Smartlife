@@ -18,27 +18,27 @@ https://github.com/codetheweb/tuyapi/blob/master/docs/SETUP_DEPRECATED.md#androi
 
 Dans le fichier smartlife.prop
 
-       "devices": {
-                "ruban": {
-                        "id": "xxxxxxxxxxxxxxxxxxxx",
-                        "key": "yyyyyyyyyyyyyy",
-                        "ip": "192.168.x.x"
-                        },
-                "lumière": {
-                        "id": "05200458dc4f2238eebf",
-                        "key": "69beb13096808d8f",                                
-                        "ip": "192.168.x.x"
-                      }
-                }
+	"devices": {
+		"ruban": {
+			"id": "xxxxxxxxxxxxxxxxxxxx",
+			"key": "yyyyyyyyyyyyyy",
+			"ip": "192.168.x.x"
+			},
+		"lumière": {
+			"id": "05200458dc4f2238eebf",
+			"key": "69beb13096808d8f",                                
+			"ip": "192.168.x.x"
+			}
+		}
 		
-				"node":{
-						"displayNode":true ou false 		  (Permet d'afficher une icône sur l'interface du serveur)
-						"delNodeAfterCommand":true ou false   (Efface l'icone de l'interface après une commande de fermeture)
+		"node":{
+			"displayNode":true ou false 		  (Permet d'afficher une icône sur l'interface du serveur)
+			"delNodeAfterCommand":true ou false   (Efface l'icone de l'interface après une commande de fermeture)
 	},	
 		
 **Versions :**
 
-Version 1.3 (10-04-2019)
+Version 1.2 (01-04-2019)
 
 - [x] Selon paramètre ajout d'un node par module sur le serveur.
 - [x] Selon paramètre lors de la fermeture supprime le node (module)
