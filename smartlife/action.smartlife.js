@@ -13,7 +13,7 @@ exports.default = function(state) {
       let request, req_value, req_room, req_module;
 
       let turn_on = ["allume", "ouvre"];
-      let turn_off = ["éteins", "éteint", "ferme", "coupe"];
+      let turn_off = ["éteins", "éteint", "éteindre", "ferme", "coupe"];
       let turn_state = ["statut", "valeur"];
       let piece = ["salon", "chambre", "cuisine", "sdb", "couloir"];
 

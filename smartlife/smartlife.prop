@@ -3,23 +3,33 @@
     "smartlife": {
       "description": "Commandes Vocales pour controler vos modules SmartLife",
       "version": "1.0",
-      "debug": "true",
+      "debug": true,
+      "sonoff": false,
+      "node": {
+        "displayNode": true,
+        "delNodeAfterCommand": false
+      },
       "rules": {
-              "turn_on": [ "turn on * ", "light * ", "light up * ", "switch on * ", "open", "lights *" ],
-              "turn_off": [ "turn off * ", "light up * ", "switch off * ", "close * " ]
-            },
+        "turn_on": ["light", "turn on", "switch on", "open"],
+        "turn_off": ["turn off", "switch off", "close"]
+      },
       "devices": {
-                "device1": {
-                        "id": "xxxxxxxxxxxxxxxxxxx",
-                        "key": "yyyyyyyyyyyyyyyyyyyy",
-                        "ip": "192.168.x.x"
-                        },
-                "device2": {
-                        "id": "xxxxxxxxxxxxxxxxxxxxx",
-                        "key": "yyyyyyyyyyyyyyyyyyyy",                                
-                        "ip": "192.168.x.x"
-                      }
-                }
-          }
+        "ruban": {
+          "name": "Ruban",
+          "id": "",
+          "key": "",
+          "ip": "",
+          "room": "Salon"
+        },
+        "lumière": {
+          "name": "Lumière",
+          "id": "",
+          "key": "",
+          "ip": "",
+          "room": "Chambre"
+        }
+      },
+      "active": true
+    }
   }
 }

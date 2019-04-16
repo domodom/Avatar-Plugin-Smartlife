@@ -1,0 +1,24 @@
+{
+  "id": "ruban_salon",
+  "name": "ruban_salon",
+  "classes": {
+    "smartlife": 1
+  },
+  "selected": false,
+  "locked": false,
+  "position": {
+    "x": 962,
+    "y": 200
+  },
+  "style": {
+    "background-image": "D:\\AVATAR\\Serveur\\resources\\core\\plugins\\smartlife\\assets\\images\\modules\\pc.png",
+    "height": 45,
+    "width": 45,
+    "border-opacity": 0,
+    "font-size": "11px",
+    "color": "white",
+    "text-valign": "bottom",
+    "text-outline-width": 1,
+    "text-outline-color": "#999"
+  }
+}

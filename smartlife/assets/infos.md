@@ -1,5 +1,4 @@
-![enter image description here](https://raw.githubusercontent.com/Spikharpax/Avatar-Serveur/master/logo/Avatar.jpg)
-![enter image description here](https://images-na.ssl-images-amazon.com/images/I/51ggpKwx+cL._SL210_QL95_BG0,0,0,0_FMpng_.png)
+# Smartlife
 
 **Fonctions :**
 
