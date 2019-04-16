@@ -32,9 +32,18 @@ Dans le fichier smartlife.prop
                         "ip": "192.168.x.x"
                       }
                 }
+			  "node":{
+						"displayNode":true ou false 		  (Permet d'afficher une icône sur l'interface du serveur)
+						"delNodeAfterCommand":true ou false   (Efface l'icone de l'interface après une commande de fermeture)
+	},	
 		
-		
-**Version :**
+**Versions :**
+
+Version 1.2 (01-04-2019)
+
+- [x] Selon paramètre ajout d'un node par module sur l'interface du serveur.
+- [x] Selon paramètre lors de la fermeture supprime le node (module)
+- [x] Chaque modules affichés à un menu contextuel pour commander l'appareil.
 
 Version 1.0 (29-10-2018)
 
